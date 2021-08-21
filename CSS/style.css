@@ -1,0 +1,331 @@
+
+
+/*================= fonts ========================*/
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;600&display=swap');
+
+*{
+    font-family: 'Teko', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+
+/* =================== header ===================== */
+
+header{
+    margin-top: 8%;
+}
+
+.header-content{
+    color: #fff;
+    display: flex;
+}
+
+/* .details{
+    padding-right: 20%;
+} */
+
+.details>h3{
+    font-size: 35px;
+}
+.details>h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.name{
+    color: brown;
+    font-size: 65px;
+}
+
+.designation{
+    color: cadetblue;
+    margin-bottom: 5%;
+}
+
+.about{
+    font-size: 20px;
+}
+
+.hire{
+    font-size: 20px;
+}
+
+img{
+    margin-left: 10%;
+    width: 80%;
+    height: 450px;
+}
+
+@media only screen and (max-width: 768px){
+
+    .details{
+        padding-right: 10%;
+    }
+
+    .details>h3{
+        font-size: 25px;
+    }
+    .details>h1{
+        font-size: 35px;
+        font-weight: 600;
+    }
+    
+    .name{
+        color: brown;
+        font-size: 45px;
+    }
+    
+    .designation{
+        color: cadetblue;
+        margin-bottom: 5%;
+    }
+    
+    .about{
+        font-size: 20px;
+    }
+
+    img{
+        margin-bottom: 8%;
+        margin-left: 5%;
+        width: 100%;
+        height: 450px;
+    }
+    
+
+    
+}
+
+@media only screen and (max-width: 414px){
+
+    
+    .details>h3{
+        font-size: 25px;
+    }
+    .details>h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    .name{
+        color: brown;
+        font-size: 40px;
+    }
+    
+    
+
+    img{
+        margin-bottom: 8%;
+        margin-top: 5%;
+        width: 300px;
+        height: 400px;
+    }
+    
+
+    
+}
+
+/* ========================== header end ====================== */
+
+
+
+/* ========================= main =============================== */
+
+main{
+    margin-top: 20%;
+}
+
+/* ============background============= */
+
+.background{
+    display: flex;
+    
+}
+
+.background>h1{
+    font-size: 35px;
+    color: brown;
+    font-weight: 600;
+}
+
+
+
+.background-details{
+    margin-left: 20%;
+}
+
+.background-details>p{
+    color: lightgray;
+    font-size: 20px;
+}
+
+.background-details>h3{
+    color: lightgray;
+    margin-top: 5%;
+}
+
+
+
+/* =========skill section========= */
+
+.skill-section{
+    margin-top: 15%;
+    display: flex;
+    
+}
+
+.skill-section>h1{
+    font-weight: 600;
+    color: brown;
+    
+}
+
+.skill-details{
+    margin-left: 20%;
+}
+
+ul>li{
+    list-style: none;
+    font-size: 20px;
+    color: lightgray;
+}
+
+
+/* ========experience=========== */
+
+.experience{
+    display: flex;
+    margin-top: 15%;
+    
+    
+}
+
+.experience>h1{
+    font-size: 35px;
+    color: brown;
+    font-weight: 600;
+}
+
+
+
+.experience-details{
+    margin-left: 20%;
+}
+
+.experience-details>h4{
+    color: aquamarine;
+    
+}
+
+.experience-details>h3{
+    color: lightgray;
+    margin-top: 5%;
+}
+
+
+
+/* ========Projects========= */
+
+.projects{
+    margin-top: 15%;
+    display: flex;
+}
+
+.projects>h1{
+    color: brown;
+    font-weight: 600;
+}
+
+.project-details{
+    margin-left: 20%;
+}
+
+.project-details>ul>li{
+    margin-bottom: 10%;
+}
+
+
+
+@media only screen and (max-width: 768px){
+
+    
+
+    
+}
+
+@media only screen and (max-width: 414px){
+
+    
+    .background{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10%;
+        
+    }
+
+    .skill-section{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10%;
+    }
+    
+
+    .experience{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10%;
+    }
+    
+
+    .projects{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10%;
+    }
+    
+}
+
+
+
+
+/* ========================= main end =========================== */
+
+footer{
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.social{
+    display: flex;
+}
+
+.social .footer-details>h5{
+    color: cadetblue;
+}
+
+footer .icons>a{
+    text-decoration: none !important;
+    
+}
+
+footer .icons>a>i{
+    color: cadetblue;
+    padding-inline: 20px;
+}
+
+
+@media only screen and (max-width: 414px){
+
+    .footer-details{
+        margin-bottom: 5%;
+    }
+
+
+    .social{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
